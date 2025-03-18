@@ -1,5 +1,6 @@
 class Solution {
     public int solution(int hp) {
+        
         int answer = 0;
         
         answer += hp / 5;
@@ -9,7 +10,7 @@ class Solution {
         hp %= 3;
         
         answer += hp;
-        
+
         return answer;
     }
 }
